@@ -3,12 +3,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .phone {
   background: white;
-  width: 375px;
-  height: 812px;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,6 +25,8 @@ svg.shapes {
 }
 .logo {
   position: absolute;
+  max-width: 100%;
+  /* width: */
 }
 
 .shapes path {
