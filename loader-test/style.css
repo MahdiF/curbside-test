@@ -30,7 +30,7 @@ svg.shapes {
 
 
 .shapes path {
-  animation: float 5s infinite ease-out;
+  animation: float 4s infinite cubic-bezier(0.55, 1.2, 0.76, 1.39);
   transform-origin: center;
 }
 
